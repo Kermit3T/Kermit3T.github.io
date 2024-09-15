@@ -25,7 +25,7 @@ function About() {
     <AboutWrapper>
       <Title>About Me</Title>
       <Content>
-        Hello! I'm Thang, but I like to go by John, a Computer science undergrade passionate about web developement.
+        Hello! I'm Thang, but I like to go by John, a computer science undergrade passionate about web developement.
         With experience in ASP.NET, Vite.js, and Next.js, I'm always eager to take on new challenges
         and create innovative solutions.
       </Content>
