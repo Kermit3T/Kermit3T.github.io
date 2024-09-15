@@ -27,8 +27,7 @@ function Navigation() {
   return (
     <Nav>
       <NavList>
-        <NavItem><Link to="/">Home</Link></NavItem>
-        <NavItem><Link to="/about">About Me</Link></NavItem>
+        <NavItem><Link to="/">About Me</Link></NavItem>
         <NavItem><Link to="/projects">Projects</Link></NavItem>
         <NavItem><Link to="/assignments">Assignments</Link></NavItem>
         <NavItem><Link to="/contact">Contact</Link></NavItem>
