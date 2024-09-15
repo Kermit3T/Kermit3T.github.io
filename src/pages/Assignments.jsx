@@ -48,11 +48,11 @@ function Assignments() {
       <Title>My Assignments</Title>
       
       <AssignmentCard>
-        <AssignmentTitle>Assignment 0: placeholder</AssignmentTitle>
+        <AssignmentTitle>Assignment 0: Dummy assignment</AssignmentTitle>
         <AssignmentDescription>
             Placeholder
         </AssignmentDescription>
-        <GithubLink href="https://google.com/" target="_blank" rel="noopener noreferrer">
+        <GithubLink href="https://github.com/Kermit3T/bu_username-assignment-0" target="_blank" rel="noopener noreferrer">
           Github Link
         </GithubLink>
       </AssignmentCard>
