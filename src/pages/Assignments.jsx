@@ -50,9 +50,17 @@ function Assignments() {
       <AssignmentCard>
         <AssignmentTitle>Assignment 0: Dummy assignment</AssignmentTitle>
         <AssignmentDescription>
-            Placeholder
+            Testing assignment
         </AssignmentDescription>
-        <GithubLink href="https://github.com/Kermit3T/bu_username-assignment-0" target="_blank" rel="noopener noreferrer">
+        <GithubLink href="https://github.com/Kermit3T/tongtt-assignment-0" target="_blank" rel="noopener noreferrer">
+          Github Link
+        </GithubLink>
+
+        <AssignmentTitle>Assignment 1: CDS elevator optimization</AssignmentTitle>
+        <AssignmentDescription>
+            This assignments helps me find the best spot to stand at to minimize the distance I have to walk to the nearest opening elevator
+        </AssignmentDescription>
+        <GithubLink href="https://github.com/Kermit3T/tongtt-assignment-1" target="_blank" rel="noopener noreferrer">
           Github Link
         </GithubLink>
       </AssignmentCard>
