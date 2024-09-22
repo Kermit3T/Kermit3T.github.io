@@ -55,7 +55,9 @@ function Assignments() {
         <GithubLink href="https://github.com/Kermit3T/tongtt-assignment-0" target="_blank" rel="noopener noreferrer">
           Github Link
         </GithubLink>
+      </AssignmentCard>
 
+      <AssignmentCard>
         <AssignmentTitle>Assignment 1: CDS elevator optimization</AssignmentTitle>
         <AssignmentDescription>
             This assignments helps me find the best spot to stand at to minimize the distance I have to walk to the nearest opening elevator
