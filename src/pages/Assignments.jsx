@@ -67,6 +67,16 @@ function Assignments() {
         </GithubLink>
       </AssignmentCard>
 
+      <AssignmentCard>
+        <AssignmentTitle>Assignment 2: KMeans Visualizator</AssignmentTitle>
+        <AssignmentDescription>
+            This assignments helps me visualize different kmeans algorithms
+        </AssignmentDescription>
+        <GithubLink href="https://github.com/Kermit3T/tongtt-assignment-2" target="_blank" rel="noopener noreferrer">
+          Github Link
+        </GithubLink>
+      </AssignmentCard>
+
       {/* Add more AssignmentCard components for future assignments */}
     </AssignmentsWrapper>
   );
