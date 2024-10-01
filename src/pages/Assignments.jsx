@@ -30,7 +30,7 @@ const AssignmentDescription = styled.p`
   margin-bottom: 1rem;
 `;
 
-const GithubLink = styled.a`
+const CustomLink = styled.a`
   display: inline-block;
   background-color: #004D14; // Traditional Forest Green
   color: white;
@@ -52,9 +52,9 @@ function Assignments() {
         <AssignmentDescription>
             Testing assignment
         </AssignmentDescription>
-        <GithubLink href="https://github.com/Kermit3T/tongtt-assignment-0" target="_blank" rel="noopener noreferrer">
+        <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-0" target="_blank" rel="noopener noreferrer">
           Github Link
-        </GithubLink>
+        </CustomLink>
       </AssignmentCard>
 
       <AssignmentCard>
@@ -62,9 +62,9 @@ function Assignments() {
         <AssignmentDescription>
             This assignments helps me find the best spot to stand at to minimize the distance I have to walk to the nearest opening elevator
         </AssignmentDescription>
-        <GithubLink href="https://github.com/Kermit3T/tongtt-assignment-1" target="_blank" rel="noopener noreferrer">
+        <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-1" target="_blank" rel="noopener noreferrer">
           Github Link
-        </GithubLink>
+        </CustomLink>
       </AssignmentCard>
 
       <AssignmentCard>
@@ -72,9 +72,12 @@ function Assignments() {
         <AssignmentDescription>
             This assignments helps me visualize different kmeans algorithms
         </AssignmentDescription>
-        <GithubLink href="https://github.com/Kermit3T/tongtt-assignment-2" target="_blank" rel="noopener noreferrer">
+        <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-2" target="_blank" rel="noopener noreferrer">
           Github Link
-        </GithubLink>
+        </CustomLink>
+        <CustomLink href="https://youtu.be/nDhDAZJpVoc" target="_blank" rel="noopener noreferrer">
+          Demo
+        </CustomLink>
       </AssignmentCard>
 
       {/* Add more AssignmentCard components for future assignments */}
