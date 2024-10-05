@@ -80,6 +80,16 @@ function Assignments() {
         </CustomLink>
       </AssignmentCard>
 
+      <AssignmentCard>
+        <AssignmentTitle>Assignment 2: KMeans Visualizator</AssignmentTitle>
+        <AssignmentDescription>
+            An implementation of custom Singular Value Decomposition (SVD) algorithm from scratch and applied it to reduce the dimensionality of the MNIST handwritten digit dataset from 784 dimensions to various lower dimensions (50-400 components).
+        </AssignmentDescription>
+        <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-3" target="_blank" rel="noopener noreferrer">
+          Github Link
+        </CustomLink>
+      </AssignmentCard>
+
       {/* Add more AssignmentCard components for future assignments */}
     </AssignmentsWrapper>
   );
