@@ -81,7 +81,7 @@ function Assignments() {
       </AssignmentCard>
 
       <AssignmentCard>
-        <AssignmentTitle>Assignment 2: KMeans Visualizator</AssignmentTitle>
+        <AssignmentTitle>Assignment 3: SVD implementation and analysis</AssignmentTitle>
         <AssignmentDescription>
             An implementation of custom Singular Value Decomposition (SVD) algorithm from scratch and applied it to reduce the dimensionality of the MNIST handwritten digit dataset from 784 dimensions to various lower dimensions (50-400 components).
         </AssignmentDescription>
