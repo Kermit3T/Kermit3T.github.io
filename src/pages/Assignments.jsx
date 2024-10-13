@@ -30,6 +30,12 @@ const AssignmentDescription = styled.p`
   margin-bottom: 1rem;
 `;
 
+const CustomLinkWrapper = styled.div`
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+`;
+
 const CustomLink = styled.a`
   display: inline-block;
   background-color: #004D14; // Traditional Forest Green
@@ -52,9 +58,11 @@ function Assignments() {
         <AssignmentDescription>
             Testing assignment
         </AssignmentDescription>
-        <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-0" target="_blank" rel="noopener noreferrer">
-          Github Link
-        </CustomLink>
+        <CustomLinkWrapper>
+          <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-0" target="_blank" rel="noopener noreferrer">
+            Github Link
+          </CustomLink>
+        </CustomLinkWrapper>
       </AssignmentCard>
 
       <AssignmentCard>
@@ -62,9 +70,11 @@ function Assignments() {
         <AssignmentDescription>
             This assignments helps me find the best spot to stand at to minimize the distance I have to walk to the nearest opening elevator
         </AssignmentDescription>
-        <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-1" target="_blank" rel="noopener noreferrer">
-          Github Link
-        </CustomLink>
+        <CustomLinkWrapper>
+          <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-1" target="_blank" rel="noopener noreferrer">
+            Github Link
+          </CustomLink>
+        </CustomLinkWrapper>
       </AssignmentCard>
 
       <AssignmentCard>
@@ -72,12 +82,14 @@ function Assignments() {
         <AssignmentDescription>
             This assignments helps me visualize different kmeans algorithms
         </AssignmentDescription>
-        <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-2" target="_blank" rel="noopener noreferrer">
-          Github Link
-        </CustomLink>
-        <CustomLink href="https://youtu.be/nDhDAZJpVoc" target="_blank" rel="noopener noreferrer">
-          Demo
-        </CustomLink>
+        <CustomLinkWrapper>
+          <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-2" target="_blank" rel="noopener noreferrer">
+            Github Link
+          </CustomLink>
+          <CustomLink href="https://youtu.be/nDhDAZJpVoc" target="_blank" rel="noopener noreferrer">
+            Demo
+          </CustomLink>
+        </CustomLinkWrapper>
       </AssignmentCard>
 
       <AssignmentCard>
@@ -85,9 +97,26 @@ function Assignments() {
         <AssignmentDescription>
             An implementation of custom Singular Value Decomposition (SVD) algorithm from scratch and applied it to reduce the dimensionality of the MNIST handwritten digit dataset from 784 dimensions to various lower dimensions (50-400 components).
         </AssignmentDescription>
-        <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-3" target="_blank" rel="noopener noreferrer">
-          Github Link
-        </CustomLink>
+        <CustomLinkWrapper>
+          <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-3" target="_blank" rel="noopener noreferrer">
+            Github Link
+          </CustomLink>
+        </CustomLinkWrapper>
+      </AssignmentCard>
+
+      <AssignmentCard>
+        <AssignmentTitle>Assignment 4: LDS Search endgine</AssignmentTitle>
+        <AssignmentDescription>
+            This assignments filters through documents using LDS and keywords
+        </AssignmentDescription>
+        <CustomLinkWrapper>
+          <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-4" target="_blank" rel="noopener noreferrer">
+            Github Link
+          </CustomLink>
+          <CustomLink href="https://youtu.be/nDhDAZJpVoc" target="_blank" rel="noopener noreferrer">
+            Demo
+          </CustomLink>
+        </CustomLinkWrapper>
       </AssignmentCard>
 
       {/* Add more AssignmentCard components for future assignments */}
