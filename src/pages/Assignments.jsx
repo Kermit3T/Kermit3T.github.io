@@ -119,6 +119,18 @@ function Assignments() {
         </CustomLinkWrapper>
       </AssignmentCard>
 
+      <AssignmentCard>
+        <AssignmentTitle>Assignment 5: Predicting Customer Churn Using KNN</AssignmentTitle>
+        <AssignmentDescription>
+            Implement a the K-Nearest Neighbors (KNN) algorith to develop a predictive model to identify customers who are likely to churn (i.e., leave the bank) 
+        </AssignmentDescription>
+        <CustomLinkWrapper>
+          <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-5" target="_blank" rel="noopener noreferrer">
+            Github Link
+          </CustomLink>
+        </CustomLinkWrapper>
+      </AssignmentCard>
+
       {/* Add more AssignmentCard components for future assignments */}
     </AssignmentsWrapper>
   );
