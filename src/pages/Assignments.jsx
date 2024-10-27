@@ -131,6 +131,21 @@ function Assignments() {
         </CustomLinkWrapper>
       </AssignmentCard>
 
+      <AssignmentCard>
+        <AssignmentTitle>Midterm: Movie Review Classification Analysis</AssignmentTitle>
+        <AssignmentDescription>
+            Develope a model to attempt to guess the rating of Amazon movies reviews
+        </AssignmentDescription>
+        <CustomLinkWrapper>
+          <CustomLink href="https://github.com/Kermit3T/tongtt-AmazonScorePrediction" target="_blank" rel="noopener noreferrer">
+            Github Link
+          </CustomLink>
+          <CustomLink href="https://docs.google.com/document/d/1dZXM1v_Z4UtE2L5H68RTyGispqX6Baf---7qP6u7NrE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            Demo
+          </CustomLink>
+        </CustomLinkWrapper>
+      </AssignmentCard>
+
       {/* Add more AssignmentCard components for future assignments */}
     </AssignmentsWrapper>
   );
