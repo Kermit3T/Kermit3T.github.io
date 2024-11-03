@@ -146,6 +146,21 @@ function Assignments() {
         </CustomLinkWrapper>
       </AssignmentCard>
 
+      <AssignmentCard>
+        <AssignmentTitle>Assignment 6: Linear Regression Visualization</AssignmentTitle>
+        <AssignmentDescription>
+            Created a website that plots linear regression and showcases changes based on different inputs.
+        </AssignmentDescription>
+        <CustomLinkWrapper>
+          <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-6" target="_blank" rel="noopener noreferrer">
+            Github Link
+          </CustomLink>
+          <CustomLink href="https://youtu.be/nDhDAZJpVoc" target="_blank" rel="noopener noreferrer">
+            Demo
+          </CustomLink>
+        </CustomLinkWrapper>
+      </AssignmentCard>
+
       {/* Add more AssignmentCard components for future assignments */}
     </AssignmentsWrapper>
   );
