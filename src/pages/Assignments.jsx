@@ -141,7 +141,7 @@ function Assignments() {
             Github Link
           </CustomLink>
           <CustomLink href="https://docs.google.com/document/d/1dZXM1v_Z4UtE2L5H68RTyGispqX6Baf---7qP6u7NrE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-            Demo
+            Report
           </CustomLink>
         </CustomLinkWrapper>
       </AssignmentCard>
