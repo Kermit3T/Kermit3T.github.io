@@ -161,6 +161,21 @@ function Assignments() {
         </CustomLinkWrapper>
       </AssignmentCard>
 
+      <AssignmentCard>
+        <AssignmentTitle>Assignment 7: Hypothesis Testing and Confidence Intervals in Linear Regression Visualization</AssignmentTitle>
+        <AssignmentDescription>
+            A modified version of Assignment 6 that implements Hypothesis Testing and Confidence Intervals to existing Linear Regression Visualization
+        </AssignmentDescription>
+        <CustomLinkWrapper>
+          <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-7" target="_blank" rel="noopener noreferrer">
+            Github Link
+          </CustomLink>
+          <CustomLink href="https://youtu.be/XckHP5aX_ds" target="_blank" rel="noopener noreferrer">
+            Demo
+          </CustomLink>
+        </CustomLinkWrapper>
+      </AssignmentCard>
+
       {/* Add more AssignmentCard components for future assignments */}
     </AssignmentsWrapper>
   );
