@@ -170,7 +170,7 @@ function Assignments() {
           <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-7" target="_blank" rel="noopener noreferrer">
             Github Link
           </CustomLink>
-          <CustomLink href="https://youtu.be/XckHP5aX_ds" target="_blank" rel="noopener noreferrer">
+          <CustomLink href="https://www.youtube.com/watch?v=sgvjBIdjyc4" target="_blank" rel="noopener noreferrer">
             Demo
           </CustomLink>
         </CustomLinkWrapper>
