@@ -176,6 +176,20 @@ function Assignments() {
         </CustomLinkWrapper>
       </AssignmentCard>
 
+      <AssignmentCard>
+        <AssignmentTitle>Assignment 8: Logistic Regression Visualization</AssignmentTitle>
+        <AssignmentDescription>
+            An interactive web app that implement logistic regression with user inputed parameters and provide breakdowns
+        </AssignmentDescription>
+        <CustomLinkWrapper>
+          <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-8" target="_blank" rel="noopener noreferrer">
+            Github Link
+          </CustomLink>
+          <CustomLink href="not yet" target="_blank" rel="noopener noreferrer">
+            Demo
+          </CustomLink>
+        </CustomLinkWrapper>
+      </AssignmentCard>
       {/* Add more AssignmentCard components for future assignments */}
     </AssignmentsWrapper>
   );
