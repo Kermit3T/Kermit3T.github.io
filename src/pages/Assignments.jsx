@@ -190,6 +190,22 @@ function Assignments() {
           </CustomLink>
         </CustomLinkWrapper>
       </AssignmentCard>
+
+      <AssignmentCard>
+        <AssignmentTitle>Assignment 9: Visualizing Neural Networks</AssignmentTitle>
+        <AssignmentDescription>
+            An interactive web app that visualizes the training steps of 3 activison methods: ReLU, Tanh, and Sigmoid.
+        </AssignmentDescription>
+        <CustomLinkWrapper>
+          <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-9" target="_blank" rel="noopener noreferrer">
+            Github Link
+          </CustomLink>
+          <CustomLink href="https://youtu.be/eQAHT3wgod4" target="_blank" rel="noopener noreferrer">
+            Demo
+          </CustomLink>
+        </CustomLinkWrapper>
+      </AssignmentCard>
+      
       {/* Add more AssignmentCard components for future assignments */}
     </AssignmentsWrapper>
   );
