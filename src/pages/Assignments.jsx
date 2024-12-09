@@ -205,6 +205,21 @@ function Assignments() {
           </CustomLink>
         </CustomLinkWrapper>
       </AssignmentCard>
+
+      <AssignmentCard>
+        <AssignmentTitle>Assignment 10: Image search</AssignmentTitle>
+        <AssignmentDescription>
+            An interactive web app that allows users to search up images via image search or text search or a hybrid of both
+        </AssignmentDescription>
+        <CustomLinkWrapper>
+          <CustomLink href="https://github.com/Kermit3T/tongtt-assignment-10" target="_blank" rel="noopener noreferrer">
+            Github Link
+          </CustomLink>
+          <CustomLink href="https://youtu.be/M0JmfcZhoH4" target="_blank" rel="noopener noreferrer">
+            Demo
+          </CustomLink>
+        </CustomLinkWrapper>
+      </AssignmentCard>
       
       {/* Add more AssignmentCard components for future assignments */}
     </AssignmentsWrapper>
